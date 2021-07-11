@@ -5,7 +5,7 @@ const pkg = require('../package.json');
 const chalk = require('chalk');
 const figlet = require('figlet');
 const clear = require('clear');
-
+const emoji = require('node-emoji')
 clear(); //clears the terminal
 
 //display app title
@@ -13,8 +13,8 @@ console.log(chalk.magentaBright(
 figlet.textSync('CoinDeck', { horizontalLayout: 'full' })));
 
 //show welcome message
-console.log("Welcome to CoinDeck.\nKeep a track of your favourite Crypto from Your CLI "
-    + chalk.yellow("https://lo-victoria.com")+ " Star The Repo ^^");
+console.log(chalk.cyan("Welcome to CoinDeck.\n")+chalk.blue("Keep a track of your favourite Crypto from Your CLI \n")
+    +chalk.bold.green("Drop a ")+ emoji.get('star') +chalk.bold.green("  at The Repo ")+ chalk.yellow("https://github.com/uzair-ali10/CoinDeck \n"));
 
 
 // console.log("Hello from app.js");
