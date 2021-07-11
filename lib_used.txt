@@ -1,0 +1,5 @@
+commander
+inquirer
+configstore
+axios
+colors
