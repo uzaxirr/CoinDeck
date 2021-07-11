@@ -1,7 +1,7 @@
 {
   "name": "coindeck",
   "version": "1.0.0",
-  "description": "",
+  "description": "Keep a track of your favourite Crypto from Your CLI",
   "bin": "./bin/app.js",
   "main": "coindeck.js",
   "scripts": {
