@@ -14,7 +14,7 @@ figlet.textSync('CoinDeck', { horizontalLayout: 'full' })));
 
 //show welcome message
 console.log(chalk.cyan("Welcome to CoinDeck.\n")+chalk.blue("Keep a track of your favourite Crypto from Your CLI \n")
-    +chalk.bold.green("Drop a ")+ emoji.get('star') +chalk.bold.green("  at The Repo ")+ chalk.yellow("https://github.com/uzair-ali10/CoinDeck \n"));
+    +chalk.bold.green("Drop a ")+ emoji.get('star') +chalk.bold.green(" at The Repo ")+ chalk.yellow("https://github.com/uzair-ali10/CoinDeck \n"));
 
 
 // console.log("Hello from app.js");
