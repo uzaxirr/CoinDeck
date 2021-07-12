@@ -24,9 +24,11 @@ Install CoinDeck with npm
 ## API Key
 **Get API key from** [https://p.nomics.com/cryptocurrency-bitcoin-api](https://p.nomics.com/cryptocurrency-bitcoin-api)
 
+## Preview
 
-  
-## Screenshots
+![demo](images/demo.gif)
+
+<!-- ## Screenshots
 
 ![App Screenshot](images/welc.png)
 ---
@@ -34,7 +36,7 @@ Install CoinDeck with npm
 ![App Screenshot](images/default.png)
 ---
 
-![App Screenshot](images/app-price.png)
+![App Screenshot](images/app-price.png) -->
 
 
 ## Commands
