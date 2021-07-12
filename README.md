@@ -29,8 +29,14 @@ Install CoinDeck with npm
 ## Screenshots
 
 ![App Screenshot](images/welc.png)
+---
 
-  
+![App Screenshot](images/default.png)
+---
+
+![App Screenshot](images/app-price.png)
+
+
 ## Commands
 
 #### Key
@@ -51,10 +57,10 @@ Install CoinDeck with npm
   coindeck check
 ```
 
-| Parameter | image     | Description                |
-| :-------- | :------- | :------------------------- |
-| `coindeck check price` | ![App Screenshot](images/default.png) | Fetches the price and rank of coins, default Values are BTC, ETH, XRP, and USD as Currency |
-| `coindeck check price --coin=BTC,XMR,ETH,LTC,DOGE,TRX --curr=INR` | ![App Screenshot](images/app-price.png) | Fetches details of the specified coins in the Currency specified |
+| Parameter      | Description                |
+| :-------- |  :------------------------- |
+| `coindeck check price` |  Fetches the price and rank of coins, default Values are BTC, ETH, XRP, and USD as Currency |
+| `coindeck check price --coin=BTC,XMR,ETH,LTC,DOGE,TRX --curr=INR`  | Fetches details of the specified coins in the Currency specified |
 
   
 
